@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #111827;
+}
+#content{
+    padding: 80px 160px 274px;
+}
+header{
+    margin-bottom: 110px;
+}
+header h1{
+    color: #fff;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 75px;
+}
+span{
+    color: #0073b0;
+    font-size: 170px;
+    position: relative;
+    right: 12px;
+}
+main{
+    display: flex;
+
+}
+main img{
+    width: 735px;
+    position: relative;
+    right: 17px;
+    bottom: 22px;
+}
+.form{
+    width: 650px;
+    height: 560px;
+    background-color: #fff;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+}
+.form h1{
+    text-align: center;
+    font-size: 40px;
+}
+.caixa-form{
+    display: flex;
+    flex-direction: column;
+}
+.caixa-form input{
+    background-color: rgba(113, 128, 185, 0.32);
+    width: 450px;
+    height: 55px;
+    padding: 15px 15px 15px 40px;
+    border: none;
+    border-radius: 4px;
+}
+.caixa-form input::placeholder{
+    color: #7c7c89;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+.img-email{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 42px;
+    left: 10px;
+}
+.lock{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 38px;
+    left: 10px;
+}
+.btn-login{
+    background-color: #7180b9;
+    width: 450px;
+    height: 55px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    margin-top: 25px;
+}
+hr{
+    width: 124px;
+    margin: 0;
+    margin: 30px 0;
+}
+.formas-de-login{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    gap: 30px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+.login-github{
+    width: 245px;
+    height: 55px;
+    background-color: #7180b9;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.github{
+    width: 34px;
+    height: 34px;
+    position: relative;
+    top: 2px;
+    right: 1px;
+}
+.erro-email, .erro-password{
+    word-wrap: break-word;
+    width: 450px;
+    color: red;
+    font-size: .9rem;
+}
